@@ -1,6 +1,13 @@
+:root {
+  --primery-text-color: #757575;
+  --tittle-text-color: ;
+  --accent-color: #2196f3;
+  --primery-bg-color: #ffffff;
+}
+
 body {
-  background-color: #ffffff;
-  color: #757575;
+  background-color: var(--primery-bg-color);
+  color: var(--primery-text-color);
 }
 
 ul {
@@ -18,21 +25,25 @@ ul {
 }
 
 .logo-item {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
-.site-nav:hover,
-.site-nav:focus {
-  color: #2196f3;
-}
-
-.site-nav {
+.site-nav .link {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
 }
 
 .hero {
