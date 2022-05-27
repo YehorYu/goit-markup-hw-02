@@ -8,7 +8,7 @@
 body {
   background-color: var(--primery-bg-color);
   color: var(--primery-text-color);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -27,7 +27,7 @@ ul {
   font-weight: 700;
   color: #000000;
   font-size: 26px;
-  line-height: 0.81;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
@@ -35,12 +35,16 @@ ul {
   color: var(--accent-color);
 }
 
+.logo-footer {
+  color: #ffffff;
+  background-color: #2f303a;
+}
+
 .header-list .link {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+  line-height: 1.14;
   color: var(--tittle-text-color);
 }
 
@@ -57,8 +61,7 @@ ul {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 0.88;
-  letter-spacing: 0.02em;
+  line-height: 1.14;
   color: #757575;
 }
 
@@ -73,11 +76,11 @@ ul {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 0.73;
+  line-height: 1.36;
   text-align: center;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  background-color: #2f303a;
 }
 
 .btn-title {
@@ -88,7 +91,7 @@ ul {
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
+  cursor: pointer;
   color: #ffffff;
 }
 /* -----------------------PREFERENCES------------------- */
@@ -110,8 +113,7 @@ ul {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 0.88;
-  letter-spacing: 0.03em;
+  line-height: 1;
   text-transform: uppercase;
   color: var(--tittle-text-color);
 }
@@ -119,19 +121,78 @@ ul {
 .preferences-list {
   font-weight: 400;
   font-size: 14px;
-  line-height: 0.58;
-  letter-spacing: 0.03em;
+  line-height: 1.14;
 }
 /* =========================PROFESSIONAL======================== */
 
-.professional-title {
+.professional-title,
+.team-title {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 0.86;
+  line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--tittle-text-color);
 }
 
 /* ------------------------- TEAM ----------------------------- */
+
+.team-member {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--tittle-text-color);
+}
+
+.team-item {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* -----------------------FOOTER------------------------ */
+
+.address-teg {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+  background-color: #2f303a;
+}
+
+.footer-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #2f303a;
+}
+
+/* ------------------------PORTFOLIO---------------------- */
+
+.hero-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+  color: var(--tittle-text-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: #ffffff;
+}
+
+.exemple-name {
+  font-size: 18px;
+  line-height: 2;
+  color: var(--tittle-text-color);
+}
+
+.exemple-type {
+  font-size: 16px;
+  line-height: 1.88;
+}
