@@ -72,6 +72,10 @@ ul {
 
 /* --------------------- HERO ---------------------- */
 
+.hero-title {
+  background-color: #212121;
+}
+
 .hero {
   font-style: normal;
   font-weight: 900;
@@ -80,7 +84,6 @@ ul {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  background-color: #2f303a;
 }
 
 .btn-title {
@@ -93,7 +96,14 @@ ul {
   text-align: center;
   cursor: pointer;
   color: #ffffff;
+  background-color: #2196f3;
 }
+
+.btn-title:hover,
+.btn-title:focus {
+  opacity: 0.5;
+}
+
 /* -----------------------PREFERENCES------------------- */
 
 .visually-hidden {
@@ -137,6 +147,14 @@ ul {
 
 /* ------------------------- TEAM ----------------------------- */
 
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-list {
+  background-color: var(--primery-bg-color);
+}
+
 .team-member {
   font-style: normal;
   font-weight: 500;
@@ -152,13 +170,16 @@ ul {
 
 /* -----------------------FOOTER------------------------ */
 
+.footer-item {
+  background-color: #2f303a;
+}
+
 .address-teg {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: #ffffff;
-  background-color: #2f303a;
 }
 
 .footer-link {
@@ -167,23 +188,24 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
-  background-color: #2f303a;
 }
 
 /* ------------------------PORTFOLIO---------------------- */
 
 .hero-btn {
-  font-style: normal;
-  font-weight: 500;
+  font-family: inherit;
   font-size: 16px;
   line-height: 1.62;
   cursor: pointer;
   color: var(--tittle-text-color);
+  background: #f5f4fa;
 }
 
 .hero-btn:hover,
-.hero-btn:focus {
+.hero-btn:focus,
+.hero-btn .current {
   color: #ffffff;
+  background-color: #2196f3;
 }
 
 .exemple-name {
