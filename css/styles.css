@@ -190,6 +190,11 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+
 /* ------------------------PORTFOLIO---------------------- */
 
 .hero-btn {
